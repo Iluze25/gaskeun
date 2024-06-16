@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#backVideo {
+    position: fixed;
+    right: 50;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    background-size: cover;
+}
+#countdown {
+    z-index: 2;
+    position: relative;
+    top: 13vw;
+    color: rgb(255, 255, 255);
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 9.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15vw;
+}
+.articles {
+    z-index: 1;
+    position: relative;
+    top: 26vw;
+    left: 15.6vw;
+    color: white;
+    font-family:monospace;
+    text-decoration: underline;
+    font-size: 2vw;
+    
+}
+#blockBack {
+    z-index: -1;
+    position:absolute;
+    width: 69vw;
+    height: 14.4vw;
+    background-color: rgb(0, 0, 0, 0.25);
+    top: 31vw;
+    left: 15.4vw;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+#googleMeetIluzeXAchonk {
+    display: none;
+    z-index: -1;
+    position:absolute;
+    width: 69vw;
+    height: 14.4vw;
+    background-color: rgba(255, 251, 251, 0.75);
+    color: rgb(216, 38, 38);
+    font-family:monospace;
+    font-size: 4vw;
+    font-weight: 900;
+    top: 31vw;
+    left: 15.4vw;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    border: 1;
+    border-color: rgb(244, 0, 0);
+}
+#googleMeetIluzeXAchonk:hover {
+    color: blanchedalmond;
+    background-color: rgb(178, 0, 0, 0.75);
+}
+
