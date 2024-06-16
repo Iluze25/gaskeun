@@ -24,7 +24,7 @@ const countdown = setInterval(() => {
 
   // Tampilkan hasilnya dalam elemen dengan id 'countdown'
   const countdownElement = document.getElementById('countdown');
-  countdownElement.innerHTML = `0${hours} : ${minutes} : ${seconds}`;
+  countdownElement.innerHTML = `${hours} : ${minutes} : ${seconds}`;
 
   // Jika waktu sudah habis, hentikan countdown
   if (distance < 0) {
