@@ -7,8 +7,19 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <script src="script1.js"></script>
+    <script>
+        function aa(){
+            const A = document.getElementId('Hello')
+            const B = docuemnt.createElement('H1')
+            const C = document.createTextNode('Hello World')
+            A.appdendChild(B)
+            B.appendChild(C)
+        }
+    </script>
 </head>
 <body>
+    <button onclick="AA()">Hello</button>
+    <div id="Hello"></div>
     <div id="backgroundVideo">
         <video class="videoHP" autoplay muted loop>
             <source src="videoHp.mp4">
