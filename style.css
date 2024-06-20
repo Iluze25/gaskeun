@@ -44,3 +44,6 @@ h1, #loasd, #countdown, #countdown1, #loasd1 {
 #loasd1 {
     color: rgb(167, 109, 109, 0.25)
 }
+#meetNow {
+    z-index: 5;
+}
