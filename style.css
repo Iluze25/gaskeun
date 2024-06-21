@@ -93,6 +93,7 @@ h1, #loasd, #countdown, #countdown1, #loasd1 {
   left:30%;
 
   background-color: rgb(110, 35, 232, 0.5);
+    backdrop-filte : blur(2px);
 
   width: 45vw;
 
@@ -123,5 +124,5 @@ h1, #loasd, #countdown, #countdown1, #loasd1 {
   border-radius: 7px;
 
   font-size: 6vw;
-
+    backdrop-filte : blur(2px);
 }
