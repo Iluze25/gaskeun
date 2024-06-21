@@ -1,5 +1,5 @@
-function meet() {
-  window.open('https://meet.google.com/auz-osxp-jxs', 'blank')
+meet.google.com/gtz-davw-qzgfunction meet() {
+  window.open('meet.google.com/gtz-davw-qzg', 'blank')
 }
 function meetNowI() {
   let hello = document.getElementById('meetNow')
