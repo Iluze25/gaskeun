@@ -21,7 +21,7 @@ html, body {
     z-index: -1000;
     background-size: cover;
 }
-h1, #loasd, #countdown, #countdown1, #loasd1 {
+h1, #loasd, #countdown, #countdown1, #loasd1, #meetNow {
     z-index: 1;
     position: relative;
     color: rgb(255, 255, 255);
@@ -44,6 +44,4 @@ h1, #loasd, #countdown, #countdown1, #loasd1 {
 #loasd1 {
     color: rgb(167, 109, 109, 0.25)
 }
-#meetNow {
-    z-index: 5;
-}
+
