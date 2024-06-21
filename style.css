@@ -33,15 +33,15 @@ h1, #loasd, #countdown, #countdown1, #loasd1, #meetNow {
 }
 
 #countdown {
-    color: red;
-}
-#countdown1 {
-    color: rgb(167, 109, 109);
-}
-#loasd {
     color: rgb(255, 0, 0, 0.25);
 }
+#countdown1 {
+    color: rgb(167, 109, 109, 0.25);
+}
+#loasd {
+    color: red;
+}
 #loasd1 {
-    color: rgb(167, 109, 109, 0.25)
+    color: rgb(167, 109, 109);
 }
 
