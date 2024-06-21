@@ -12,14 +12,13 @@ html, body {
 }
 .videoHP {
     position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 50%;
-    min-height: 50%;
+    min-width: 100%;
+    min-height: 100%;
     width: auto;
     height: auto;
     z-index: -1000;
     background-size: cover;
+    justify-items: center;
 }
 h1, #loasd, #countdown, #countdown1, #loasd1, #meetNow {
     z-index: 1;
