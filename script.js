@@ -1,6 +1,6 @@
 function meet() {
 
-  window.open('meet.google.com/gtz-davw-qzg')
+  window.open('https://meet.google.com/gtz-davw-qzg', "_blank")
 
 }
 
