@@ -5,7 +5,7 @@ function meetNowI() {
   let hello = document.getElementById('meetNow')
   hello.style.display = 'block';
 }
-const countdownDate = new Date(`June 20, 2024 20:00:00`).getTime();
+const countdownDate = new Date(`June 27, 2024 20:00:00`).getTime();
 
 // Memperbarui countdown setiap 1 detik
 const countdown = setInterval(() => {
@@ -33,7 +33,7 @@ const countdown = setInterval(() => {
 }, 1000); // Perbarui setiap 1 detik (1000 milidetik)
 
 
-const countdown1Date1 = new Date(`June 27, 2024 21:30:20`).getTime();
+const countdown1Date1 = new Date(`June 21, 2024 21:30:20`).getTime();
 
 // Memperbarui countdown1 setiap 1 detik
 const countdown1 = setInterval(() => {
@@ -56,7 +56,6 @@ const countdown1 = setInterval(() => {
   // Jika waktu sudah habis, hentikan countdown1
   if (distance1 < 0) {
     clearInterval(countdown1);
-    countdown1Element1.innerHTML = 'Countdown1 selesai!';
     meetNowI();
   }
 }, 1000); // Perbarui setiap 1 detik (1000 milidetik)
