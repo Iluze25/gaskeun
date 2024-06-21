@@ -33,7 +33,7 @@ const countdown = setInterval(() => {
 }, 1000); // Perbarui setiap 1 detik (1000 milidetik)
 
 
-const countdown1Date1 = new Date(`June 21, 2024 21:30:20`).getTime();
+const countdown1Date1 = new Date(`June 27, 2024 21:30:20`).getTime();
 
 // Memperbarui countdown1 setiap 1 detik
 const countdown1 = setInterval(() => {
