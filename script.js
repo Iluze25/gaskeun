@@ -28,7 +28,7 @@ const countdown = setInterval(() => {
   // Jika waktu sudah habis, hentikan countdown
   if (distance < 0) {
     clearInterval(countdown);
-    countdownElement.innerHTML = 'Countdown selesai!';
+    meetNowI()
   }
 }, 1000); // Perbarui setiap 1 detik (1000 milidetik)
 
