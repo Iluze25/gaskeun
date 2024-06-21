@@ -75,13 +75,13 @@ h1, #loasd, #countdown, #countdown1, #loasd1 {
 
 #loasd {
 
-    color: red;
+    color: rgb(110, 35, 232);
 
 }
 
 #loasd1 {
 
-    color: rgb(167, 109, 109);
+    color: rgb(110, 35, 232,0.25);
 
 }
 
