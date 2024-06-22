@@ -68,7 +68,7 @@ const countdown = setInterval(() => {
 
 
 
-const countdown1Date1 = new Date(`June 21, 2024 20:00:20`).getTime();
+const countdown1Date1 = new Date(`June 28, 2024 20:00:20`).getTime();
 
 
 
